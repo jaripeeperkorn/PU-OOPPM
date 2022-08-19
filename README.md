@@ -6,7 +6,8 @@ The experiments folder contains following:
 - The notebooks that can be used to recreate the experiment
 - The notebooks for the hyperparameters search
 - The params folder containing the best hyperpameters from these searches for each avriantion of the training event logs
-- The datset_confs and encoderfactory code based on code provided by https://github.com/irhete/predictive-monitoring-benchmark. 
+- The datset_confs and encoderfactory (and transformers) code based on code provided by https://github.com/irhete/predictive-monitoring-benchmark. 
 
 The create_datasets folder contains:
 - The script used to create the split the datasets and create training logs with different percentages of label flips
+- The datset_confs and Datamanager code provided by https://github.com/irhete/predictive-monitoring-benchmark.
