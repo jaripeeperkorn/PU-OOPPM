@@ -11,3 +11,5 @@ The experiments folder contains following:
 The create_datasets folder contains:
 - The script used to create the split the datasets and create training logs with different percentages of label flips
 - The datset_confs and Datamanager code provided by https://github.com/irhete/predictive-monitoring-benchmark.
+
+The results folder contains the results for each model-loss-fucntion-event log- flip ratio combination. These csvs contain an AUC score for each possible prefix length, and an average on the bottom. 
